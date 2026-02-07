@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { MenuIcon, CloseIcon } from "./Icons";
+import { MenuIcon, CloseIcon, FolifyLogo } from "./Icons";
 
 const links = [
   { label: "বৈশিষ্ট্য", href: "#features" },
@@ -19,9 +19,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-12 sm:h-16">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 group">
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-linear-to-br from-primary to-secondary flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow">
-              <span className="text-white font-bold text-lg sm:text-xl">F</span>
-            </div>
+            <FolifyLogo className="w-9 h-9 sm:w-10 sm:h-10 drop-shadow-lg group-hover:drop-shadow-xl transition-all" />
             <span className="text-xl sm:text-2xl font-bold gradient-text">Folify</span>
           </a>
 

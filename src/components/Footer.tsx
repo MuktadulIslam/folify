@@ -1,3 +1,5 @@
+import { FolifyLogo } from "./Icons";
+
 const quickLinks = [
   { label: "বৈশিষ্ট্যসমূহ", href: "#features" },
   { label: "কিভাবে কাজ করে", href: "#how-it-works" },
@@ -20,9 +22,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-linear-to-br from-primary to-secondary flex items-center justify-center">
-                <span className="text-white font-bold text-xl">F</span>
-              </div>
+              <FolifyLogo className="w-10 h-10" />
               <span className="text-2xl font-bold text-white">Folify</span>
             </div>
             <p className="text-gray-400 leading-relaxed text-sm">

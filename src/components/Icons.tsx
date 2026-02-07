@@ -1,3 +1,29 @@
+export function FolifyLogo({ className = "w-10 h-10" }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#2563eb" />
+          <stop offset="1" stopColor="#10b981" />
+        </linearGradient>
+      </defs>
+      {/* Rounded square base */}
+      <rect x="2" y="2" width="36" height="36" rx="10" fill="url(#logoGrad)" />
+      {/* Folded corner */}
+      <path d="M28 2H30C33.3137 2 36 4 37 6V2L38 2V14L28 2Z" fill="white" fillOpacity="0.15" />
+      <path d="M26 2L38 14H30C27.7909 14 26 12.2091 26 10V2Z" fill="white" fillOpacity="0.25" />
+      {/* Stylized F letter */}
+      <path
+        d="M13 11H27M13 11V29M13 11V20M13 20H24"
+        stroke="white"
+        strokeWidth="3.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 export function DragDropIcon({ className = "w-8 h-8" }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">

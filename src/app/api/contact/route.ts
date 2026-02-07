@@ -1,10 +1,10 @@
 import nodemailer from 'nodemailer'
 import { NextRequest, NextResponse } from 'next/server';
 
-const EMAIL_USER = "muktadul.iitdu@gmail.com"
+const EMAIL_USER = "muktadulislam.folify@gmail.com"
 // Use an App Password (not your regular Gmail password)
 // Generate one at: https://myaccount.google.com/apppasswords
-const EMAIL_PASSWORD = "dqhf jstv mpyy siir"
+const EMAIL_PASSWORD = "sqyi bufr mhjs wjvz"
 
 // Create transporter for Gmail
 const transporter = nodemailer.createTransport({
@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
 		// Configure email options
 		const mailOptions = {
 			from: EMAIL_USER,
-			to: 'contact@craftxr.io',
+			to: 'muktadul.iitdu@gmail.com',
 			replyTo: email,
 			subject: `Folify - অ্যাপ তৈরির রিকোয়েস্ট - ${firstName} ${lastName}`,
 			html: `

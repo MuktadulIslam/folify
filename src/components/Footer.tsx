@@ -67,8 +67,8 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">যোগাযোগ</h4>
             <ul className="space-y-2.5 text-sm">
               <li>contact@folify.com</li>
-              <li>+৮৮০ ১৭XX-XXXXXX</li>
-              <li>ঢাকা, বাংলাদেশ</li>
+              <li>+৮৮০ ১৬০১-৬৭৮০৫৯</li>
+              <li>ধানমন্ডি-৩২, ঢাকা, বাংলাদেশ</li>
             </ul>
           </div>
         </div>

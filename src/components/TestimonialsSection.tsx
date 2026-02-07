@@ -31,7 +31,7 @@ function TestimonialCard({ t }: { t: (typeof testimonials)[number] }) {
       <p className="text-gray-700 leading-relaxed mb-6">&ldquo;{t.text}&rdquo;</p>
 
       <div className="flex items-center gap-3">
-        <div className="w-12 h-12 rounded-full bg-linear-to-br from-primary to-secondary flex items-center justify-center text-white font-bold text-lg">
+        <div className="w-11 h-11 rounded-full bg-gray-100 flex items-center justify-center text-primary font-semibold text-base ring-1 ring-gray-200">
           {t.name[0]}
         </div>
         <div>
